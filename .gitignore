@@ -1,0 +1,14 @@
+scripts/__pycache__/
+scripts/check
+scripts/dash-check.py
+scripts/dashborad_server_check.py
+scripts/db-sync_check-ok-2.py
+scripts/db_sync_check-ok-1.py
+scripts/db_sync_check-ok-3.py
+scripts/db_sync_check-ok-4.py
+scripts/remap_check-1.py
+scripts/remap_check-2.py
+scripts/stock_dashboard_writer.py
+config/
+logs/
+run_dashboard.sh
