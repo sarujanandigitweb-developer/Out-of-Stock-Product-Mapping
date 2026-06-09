@@ -1,0 +1,29 @@
+postgres:
+  host:     localhost
+  port:     5432
+  dbname:   stock_level
+  user:     YOUR_PG_USER
+  password: "YOUR_PG_PASSWORD"
+
+mysql:
+  host:     YOUR_MYSQL_HOST
+  port:     3307
+  user:     YOUR_MYSQL_USER
+  password: YOUR_MYSQL_PASSWORD
+
+google_sheets:
+  credentials_path:   /opt/openclaw/stock_level/config/google_service_account.json
+  stock_dashboard_id: YOUR_GOOGLE_SHEET_ID
+
+stock_dashboard:
+  ph_excel_path:            "/opt/openclaw/stock_level/config/PH_ID_2026.xlsx"
+  days_critical_threshold:  7
+  days_low_threshold:       21
+  days_overstock_threshold: 90
+  max_product_name_length:  45
+
+alerts:
+  backend: slack
+  slack:
+    channel_id: YOUR_SLACK_CHANNEL_ID
+    top_n_critical: 5

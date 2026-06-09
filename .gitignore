@@ -8,7 +8,10 @@ scripts/db_sync_check-ok-3.py
 scripts/db_sync_check-ok-4.py
 scripts/remap_check-1.py
 scripts/remap_check-2.py
-scripts/stock_dashboard_writer.py
-config/
+
+# Secrets - never commit credentials
+config/google_service_account.json
+config/stock_dashboard.yaml
+
+# Runtime logs
 logs/
-run_dashboard.sh
